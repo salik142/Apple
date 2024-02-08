@@ -1,0 +1,63 @@
+body {
+    d
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    padding: 10px;
+}
+
+nav ul li{
+align-items: end;
+    display: inline;
+    color: white;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.images{
+    display: grid;
+    place-items: center;
+    aspect-ratio: 3*2;
+    justify-content: center;
+    object-fit: cover;
+}
+.hero {
+    background-color: grey;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cta {
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.products {
+    padding: 2rem;
+}
+
+.products h2 {
+    margin-bottom: 1rem;
+}
+
+.products ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    list-style-type: none;
+}
